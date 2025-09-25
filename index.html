@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 04</title>
+</head>
+<body>
+    <!-- Lista desordenada de comidas favoritas -->
+    <h2>Mis 5 comidas favoritas</h2>
+    <ul>
+        <li>Arroz verde con pollo</li>
+        <li>Lomo saltado</li>
+        <li>Adobo arequipeno</li>
+        <li>Pollo a la brasa</li>
+        <li>Causa peruana</li>
+    </ul>
+
+    <!-- Algoritmo secuencial: calcular el mcd -->
+    <h2>Algoritmo secuencial: calcular el MCD de dos numeros (metodo de restas)</h2>
+    <ol>
+        <li>Leer dos numeros enteros a y b</li>
+        <li>Mientras a sea diferente de b</li>
+        <li>Si a es mayor que b, entonces a = a - b</li>
+        <li>Si b es mayor que a, entonces b = b - a</li>
+        <li>Cuando a y b sean iguales, ese valor es el MCD</li>
+    </ol>
+
+    <!-- Algoritmo con condiciones y repeticiones -->
+    <h2>Algoritmo con condiciones y repeticiones: determinar si un numero es par o impar
+        y contar hasta ese numero</h2>
+    <ol>
+        <li>Leer el numero n</li>
+        <li>Si n mod 2 es igual a 0, entonces mostrar "n es par"</li>
+        <li>Si no, mostrar "n es impar"</li>
+        <li>Inicializar contador i = 1</li>
+        <li>Mientras i sea menor o igual que n, mostrar i y aumentar i en 1</li>
+        <li>Fin del algoritmo</li>
+    </ol>
+
+    <!-- Lista anidada de hobbies -->
+    <h2 id="hobbies">Mis hobbies y recursos</h2>
+    <ul>
+        <li>Leer libros
+            <ul>
+                <li>Libros fisicos</li>
+                <li>PDFs en la computadora</li>
+                <li>Aplicaciones de lectura en el celular</li>
+            </ul>
+        </li>
+        <li>Jugar videojuegos
+            <ul>
+                <li>Videojuegos digitales</li>
+                <li>Videojuegos formato fisico</li>
+                <li>Computador personal</li>
+                <li>Consolas de videojuegos</li>
+                <li>Steam</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Hipervinculos solicitados -->
+    <h2>Ejercicio 6: Hipervinculos</h2>
+    <p>
+        <!-- Enlace externo en nueva pestana -->
+        <a href="https://www.google.com" target="_blank">Ir a Google</a>
+    </p>
+    <p>
+        <!-- Enlace interno hacia cuenta.html -->
+        <a href="cuenta.html">Ir a cuenta</a>
+    </p>
+    <p>
+        <!-- Enlace interno dentro de la misma pagina -->
+        <a href="#hobbies">Ir a hobbies</a>
+    </p>
+    <p>
+        <!-- Imagen como enlace externo a la Universidad -->
+        <a href="https://www.unsa.edu.pe/" target="UNSA">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Escudo_UNSA.png" 
+                alt="Logo UNSA" width="120">
+        </a>
+    </p>
+</body>
+</html>
